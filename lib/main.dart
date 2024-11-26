@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_online_learning_app/screens/home_screen.dart';
-//import 'screens/screens.dart';
 
 void main() {
   runApp(const MyApp());

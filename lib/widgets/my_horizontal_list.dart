@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class MyHorizontalList extends StatelessWidget {
@@ -28,7 +27,7 @@ class MyHorizontalList extends StatelessWidget {
             borderRadius: BorderRadius.circular(22),
             gradient: LinearGradient(
               begin: Alignment.topLeft,
-              end: Alignment(1, 0.0),
+              end: const Alignment(1, 0.0),
               colors: <Color>[
                 Color(startColor),
                 Color(endColor),
